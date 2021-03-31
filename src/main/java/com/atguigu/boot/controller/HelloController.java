@@ -13,6 +13,7 @@ import java.util.List;
 public class HelloController {
 
     public static void main(String[] args) {
+        System.out.println("分支");
         List<String> strings = Arrays.asList("bb", "aa");
         strings.sort((e1,e2) -> e1.compareTo(e2));
         strings.forEach((e) -> System.out.println(e));
